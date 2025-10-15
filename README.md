@@ -1,224 +1,175 @@
-# 🎵 **Music App – Ứng dụng nghe nhạc thông minh**
+# 🕊️ GoldenPeace — Serenity for the Golden Years
 
-> Nghe – Khám phá – Chia sẻ  
-> Ứng dụng nghe nhạc hiện đại với giao diện đẹp mắt và tính năng đa dạng
-
-## [DEMO - DRIVE LINK](https://drive.google.com/file/d/1Ef57lreLN5dhFICctrNeW9N0UWxjT4AS/view?usp=sharing)
-## [DOWNLOAD APK](https://drive.google.com/file/d/1Sv-0ULDGxNG_iMn1DGOKLmzxgFk4T3fn/view?usp=sharing)
+**GoldenPeace** is a mobile application designed to provide comprehensive **health and emotional support for the elderly**.
+Built with modern technologies, it empowers seniors to monitor their emotions, engage in relaxing activities, and maintain both physical and mental well-being — all within one friendly platform.
 
 ---
 
-## 📸 Ảnh minh họa giao diện
+## 📖 Table of Contents
 
-<!-- Thêm ảnh giới thiệu tổng quan app -->
-![Ảnh tổng quan giao diện]()
-
----
-
-## 🎧 Tính năng chính
-
-### 1. 🏠 **Trang chủ & Khám phá**
-- Giao diện hiện đại với thiết kế dark mode
-- Hiển thị các bài hát hot, nghệ sĩ nổi tiếng
-- Danh sách phát được đề xuất theo sở thích
-- Banner quảng bá album và nghệ sĩ mới
-
-<!-- Ảnh minh họa trang chủ -->
-![Màn hình trang chủ]()
+1. [Introduction](#introduction)
+2. [Vision & Mission](#vision--mission)
+3. [Target Users](#target-users)
+4. [Technology Stack](#technology-stack)
+5. [Key Features](#key-features)
+6. [System Architecture](#system-architecture)
+7. [Data Model](#data-model)
+8. [Development Roadmap](#development-roadmap)
+9. [Marketing Strategy](#marketing-strategy)
+10. [Conclusion](#conclusion)
 
 ---
 
-### 2. 🎵 **Trình phát nhạc**
-- **Mini Player**: Điều khiển nhanh từ bất kỳ màn hình nào
-- **Full Player**: Giao diện phát nhạc đầy đủ với:
-  - Thanh tiến trình âm thanh
-  - Điều khiển phát/tạm dừng, next/previous
-  - Hiển thị thông tin bài hát và nghệ sĩ
-  - Phát nhạc nền khi app ở background
-- Hỗ trợ nhiều định dạng âm thanh
-- Quản lý hàng đợi phát nhạc
+## 1. Introduction
 
-<!-- Ảnh minh họa trình phát -->
-![Trình phát nhạc]()
+### 1.1 Definition
+**GoldenPeace** (Vietnamese: *An Tâm Tuổi Vàng*) is a mobile application tailored for **senior citizens**, aiming to deliver an all-in-one platform for **mental wellness, emotional tracking, and healthy living**.
+It goes beyond simple tracking — the app provides curated resources and uplifting content that help users improve their overall quality of life.
 
 ---
 
-### 3. 👨‍🎤 **Quản lý Nghệ sĩ & Album**
-- Danh sách nghệ sĩ với avatar và thông tin chi tiết
-- Trang chi tiết nghệ sĩ với top songs và album
-- Thêm/chỉnh sửa thông tin nghệ sĩ mới
-- Phân loại theo thể loại nhạc
-- Album chi tiết với danh sách track
+## 2. Vision & Mission
+
+- **Vision**
+  To become the leading mobile application supporting **mental and physical health** for the elderly in Vietnam.
+
+- **Mission**
+  To create a **safe, positive, and interactive space** where seniors can share feelings, access health information, and participate in beneficial activities.
 
 ---
 
-### 4. 📚 **Thư viện cá nhân**
-- Quản lý playlist yêu thích
-- Lịch sử nghe nhạc
-- Bài hát đã tải về
-- Tạo và quản lý playlist tùy chỉnh
-- Chia sẻ playlist với bạn bè
+## 3. Target Users
 
-<!-- Ảnh minh họa thư viện -->
-![Thư viện cá nhân]()
+- **Primary Users:**
+  Elderly individuals aged **60 years and above** seeking guidance and emotional management.
+
+- **Secondary Users:**
+  **Family members and caregivers** who wish to track and support their loved ones’ well-being.
 
 ---
 
-### 5. 🔍 **Tìm kiếm thông minh**
-- Tìm kiếm theo tên bài hát, nghệ sĩ, album
-- Gợi ý tự động khi gõ
-- Lọc kết quả theo thể loại
-- Lịch sử tìm kiếm
+## 4. Technology Stack
+
+### 🖥️ Front-end — **Expo CLI (React Native)**
+- **Cross-platform support:** Runs seamlessly on both iOS and Android.
+- **Hot Reloading:** Instantly reflects code changes without restarting the app.
+- **Extensible libraries:** Easy integration for charts, music, and videos.
+
+### ☁️ Back-end — **Supabase**
+- **Real-time Database:** Automatically updates user data in real-time.
+- **Secure Authentication:** Supports email, phone, and OAuth login.
+- **File Storage:** Allows users to upload and manage files conveniently.
 
 ---
 
-### 6. 👤 **Quản lý tài khoản**
-- Đăng ký/đăng nhập với email
-- Xác thực tài khoản qua email
-- Chỉnh sửa thông tin cá nhân
-- Cài đặt chất lượng âm thanh
-- Quản lý dữ liệu và bộ nhớ
-- Hỗ trợ và phản hồi
+## 5. Key Features
+
+### 🏠 Welcome Screen
+- Displays an uplifting greeting message each morning.
+- Simple “Continue” button for easy navigation to the login page.
+- Large text and clean visuals tailored for elderly users.
+
+### 🔐 Login & Authentication
+- Sign in using **phone number and password**.
+- “Forgot Password” recovery via email or SMS.
+- Minimalist UI with large input fields for better accessibility.
+
+### 💬 Emotion Dashboard
+- Displays daily emotional summaries and motivational greetings.
+- Shows weekly mood trends via intuitive visual charts.
+
+### 📓 Emotion Journal
+- Record daily emotions (happy, sad, neutral).
+- View emotion statistics over time with weekly/monthly charts.
+- Add personal notes for context and reflection.
+
+### 🎵 Music Library
+- Curated playlists categorized by genres.
+- In-app music playback without external platforms.
+- Create and manage personal favorite playlists.
+
+### 💪 Health & Wellness
+- Includes guided exercises and healthy lifestyle tips.
+- Activity tracker with daily reminders.
+- Articles and tutorial videos on both mental and physical health.
+
+### ⚙️ Account Settings
+- Manage personal data, passwords, and security preferences.
+- Supports **Two-Factor Authentication (2FA)**.
+- Customize notification types for a personalized experience.
 
 ---
 
-### 7. 🤖 **Trợ lý âm nhạc AI**
-- Floating Assistant cho gợi ý nhạc
-- Chatbot hỗ trợ tìm kiếm bài hát
-- Đề xuất nhạc theo tâm trạng
+## 6. System Architecture
+
+### 🧩 Overview
+- **Client:** Mobile app built with Expo CLI.
+- **Server:** Supabase handling database, authentication, and file storage.
+- **API:** RESTful API enabling secure and efficient communication between client and server.
+
+### 🔄 Data Flow
+1. **Login:** User credentials sent to Supabase for authentication.
+2. **Emotion Logging:** User records stored directly to the real-time database.
+3. **Data Retrieval:** App fetches emotional and music data dynamically.
+4. **Profile Updates:** User settings synced instantly with Supabase backend.
 
 ---
 
-### 8. ⚙️ **Cài đặt nâng cao**
-- Chế độ dark/light mode
-- Chất lượng âm thanh (128kbps - 320kbps)
-- Tự động tải nhạc khi có WiFi
-- Quản lý bộ nhớ cache
-- Điều chỉnh âm lượng và equalizer
+## 7. Data Model
 
-## 🏗️ Công nghệ phát triển
+### 🧱 Database Entities
 
-| Thành phần | Công nghệ |
-|------------|-----------|
-| Framework  | Expo (React Native) |
-| Router     | Expo Router |
-| UI/Styling | NativeWind (TailwindCSS) |
-| Audio      | Expo AV, Expo Audio |
-| State      | Zustand, React Query |
-| Animation  | React Native Reanimated |
-| Icons      | Custom SVG Icons |
-| Images     | Expo Image |
-| Storage    | AsyncStorage |
-| Forms      | React Hook Form + Yup |
+| Table | Description |
+|-------|--------------|
+| **Users** | Personal data: name, phone, email, encrypted password. |
+| **EmotionJournal** | User ID, date, emotion type (happy/sad/neutral), personal notes. |
+| **Playlists** | User ID, playlist name, associated songs. |
+
+### 🔗 Relationships
+- A user can have multiple emotion entries and playlists.
+- Each emotion entry is linked to a unique user via **user_id**.
 
 ---
 
-## 🚀 Khởi chạy dự án
+## 8. Development Roadmap
 
-### 📱 Mobile App (Expo)
-
-#### Cài đặt dependencies
-```bash
-npm install
-```
-
-#### Chạy trên simulator/device
-```bash
-# Chạy development server
-npx expo start
-
-# Chạy trên Android
-npx expo run:android
-
-# Chạy trên iOS
-npx expo run:ios
-
-# Chạy trên web
-npx expo start --web
-```
-
-#### Build production
-```bash
-# Prebuild native code
-npx expo prebuild --clean
-
-# Build APK cho Android
-npx expo build:android
-
-# Build IPA cho iOS
-npx expo build:ios
-```
+| Phase | Description |
+|-------|--------------|
+| **Phase 1** | Design UI/UX and build core front-end features. |
+| **Phase 2** | Integrate back-end (Supabase) and test connectivity. |
+| **Phase 3** | Conduct **beta testing** with a pilot group of senior users. |
+| **Phase 4** | Refine the product based on feedback and prepare for launch. |
 
 ---
 
-## 📦 Cấu trúc thư mục
+## 9. Marketing Strategy
 
-```
-src/
-├── app/                    # App routing (Expo Router)
-│   ├── (tabs)/            # Bottom tabs navigation
-│   ├── (auth)/            # Authentication screens
-│   ├── (children)/        # Child screens
-│   └── (user)/            # User profile screens
-├── components/            # Reusable components
-│   ├── MiniPlayer/        # Mini music player
-│   ├── MusicPlayer/       # Full music player
-│   └── home/             # Home screen components
-├── constants/             # App constants
-├── data/                 # Sample data & types
-├── hooks/                # Custom hooks
-├── utils/                # Utility functions
-│   ├── audioQueueManager.ts
-│   └── soundManager.ts
-├── store/                # State management
-└── types/                # TypeScript definitions
-```
+- **Social Media Outreach:** Promote on Facebook, Zalo, and senior communities.
+- **Community Engagement:** Organize workshops and public talks for awareness.
+- **Collaborations:** Partner with healthcare centers and senior clubs.
 
 ---
 
-## 🎯 Tính năng nổi bật
+## 10. Conclusion
 
-- ✅ **Phát nhạc nền**: Tiếp tục phát khi app ở background
-- ✅ **Mini Player**: Điều khiển nhanh từ mọi màn hình
-- ✅ **Offline Mode**: Nghe nhạc đã tải về khi không có mạng
-- ✅ **Smart Queue**: Quản lý hàng đợi phát nhạc thông minh
-- ✅ **Beautiful UI**: Giao diện hiện đại với animations mượt mà
-- ✅ **Cross Platform**: Chạy trên iOS, Android và Web
+**GoldenPeace** is more than an application — it is a **trusted companion** for elderly users to nurture emotional balance and stay physically active.
+Through the synergy of **Expo CLI** and **Supabase**, GoldenPeace delivers a seamless, real-time, and secure user experience.
+
+> We believe GoldenPeace will become a meaningful part of seniors’ daily lives — helping them live with peace, joy, and vitality every day.
 
 ---
 
-## 🔧 Scripts hữu ích
-
-```bash
-# Format code
-npm run format-code
-
-# Lint code
-npm run lint
-
-# Run tests
-npm test
-
-# Clear cache
-npx expo start --clear
-```
+### 💡 Tech Summary
+| Layer | Technology | Purpose |
+|-------|-------------|----------|
+| Frontend | Expo CLI (React Native) | Cross-platform mobile development |
+| Backend | Supabase | Realtime database, Auth, File storage |
+| Auth | Supabase Auth | Email, Phone, OAuth |
+| Charts | Victory Native / Recharts | Data visualization for mood tracking |
+| Media | Expo AV | Audio streaming for music library |
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👥 Đóng góp
-
-Mọi đóng góp đều được chào đón! Hãy tạo issue hoặc pull request.
-
----
-
-## 📞 Liên hệ
-
-- **Email**: support@musicapp.com
-- **Website**: https://musicapp.com
-- **GitHub**: https://github.com/your-repo/music-app
+### 🧠 Author
+Developed by **GoldenPeace Team**
+Dedicated to bringing serenity and happiness to the golden years of life.
