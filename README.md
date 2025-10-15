@@ -3,6 +3,8 @@
 **GoldenPeace** is a mobile application designed to provide comprehensive **health and emotional support for the elderly**.
 Built with modern technologies, it empowers seniors to monitor their emotions, engage in relaxing activities, and maintain both physical and mental well-being — all within one friendly platform.
 
+![Demo](https://github.com/NotWutLit/golden-peace-app/blob/main/demo.gif)
+
 ---
 
 ## 📖 Table of Contents
