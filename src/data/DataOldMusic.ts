@@ -1,0 +1,58 @@
+const DataOldMusic = [
+  {
+    id: 1,
+    title: 'Diễm xưa',
+    artist: 'Trịnh Công Sơn',
+    duration: '4:32',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469443/2ed7370d-56c5-4582-9145-2608d9dcd3ef.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463835/DIE%CC%82%CC%83M_XU%CC%9BA_-_Sa%CC%81ng_ta%CC%81c_Tri%CC%A3nh_Co%CC%82ng_So%CC%9Bn_-_Tie%CC%82%CC%81ng_ha%CC%81t_Kha%CC%81nh_Ly_jrkbdh.mp3',
+    description: 'Bản nhạc trữ tình sâu lắng, mang đậm phong cách Trịnh Công Sơn.',
+  },
+  {
+    id: 2,
+    title: 'Cát bụi',
+    artist: 'Trịnh Công Sơn',
+    duration: '3:57',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469467/31197e67-c8a4-4386-bc90-e4340b821338.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463834/Kha%CC%81nh_Ly_Ca%CC%81t_bu%CC%A3i_uqtam3.mp3',
+    description: 'Ca khúc triết lý về kiếp người, nhẹ nhàng và sâu sắc.',
+  },
+  {
+    id: 3,
+    title: 'Hạ trắng',
+    artist: 'Trịnh Công Sơn',
+    duration: '5:10',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469522/c6a6881f-845f-4f0a-b0f2-5868ddaf5b9b.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463834/Ha%CC%A3_Tra%CC%86%CC%81ng___Nha%CC%A3c_Si%CC%83__Tri%CC%A3nh_Co%CC%82ng_So%CC%9Bn___Kha%CC%81nh_Ly_5KVZS1ulb50_ubiwzk.mp3',
+    description: 'Bài hát với giai điệu du dương, thể hiện nỗi buồn trong sáng.',
+  },
+  {
+    id: 4,
+    title: 'Tình thôi xót xa',
+    artist: 'Bảo Chấn',
+    duration: '4:05',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469550/fd0a8b53-c947-4160-ac81-cc49bfd18a86.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463835/Ti%CC%80nh_tho%CC%82i_xo%CC%81t_xa_-_Lam_Tru%CC%9Bo%CC%9B%CC%80ng_soxosw.mp3',
+    description: 'Một ca khúc nhạc xưa đầy cảm xúc về tình yêu dang dở.',
+  },
+  {
+    id: 5,
+    title: 'Dấu chân địa đàng',
+    artist: 'Trịnh Công Sơn',
+    duration: '4:40',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469660/be95092f-9a67-4bc2-88c9-39e5075d2d69.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463835/Kha%CC%81nh_Ly_-_Da%CC%82%CC%81u_Cha%CC%82n_%C4%90i%CC%A3a_%C4%90a%CC%80ng_Tri%CC%A3nh_Co%CC%82ng_So%CC%9Bn_PBN_Divas_wnbvng.mp3',
+    description: 'Một bản nhạc mang âm hưởng dân ca và triết lý sâu sắc.',
+  },
+  {
+    id: 6,
+    title: 'Mưa hồng',
+    artist: 'Trịnh Công Sơn',
+    duration: '3:45',
+    image: 'https://res.cloudinary.com/dedwe8grx/image/upload/v1760469684/e6172163-11d1-43ca-a0f9-63213edfcc27.png',
+    audio: 'https://res.cloudinary.com/dedwe8grx/video/upload/v1760463834/MU%CC%9BA_HO%CC%82%CC%80NG_Sa%CC%81ng_Ta%CC%81c__Tri%CC%A3nh_Co%CC%82ng_So%CC%9Bn_-_KHA%CC%81NH_LY_OFFICIAL_vhpy7v.mp3',
+    description: 'Một ca khúc nhẹ nhàng, lãng mạn về tình yêu và kỷ niệm.',
+  },
+]
+
+export default DataOldMusic
